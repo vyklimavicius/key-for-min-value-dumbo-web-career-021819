@@ -11,17 +11,17 @@ def key_for_min_value(hash)
 		return nil
 	end
 
-hash.collect do |key,value|
+hash.each do |key,value|
 			     values = value
 		end
 
-hash.collect do |key,value|
+hash.each do |key,value|
 				if value < values
 				values = value
 		  	end
 		end
 
-hash.collect do |key,value|
+hash.each do |key,value|
 			if value == values
 					 less_key << key
 		end
